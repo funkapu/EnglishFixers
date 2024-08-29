@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@ant-design/colors": "^7.1.0",
+    "@ant-design/icons": "^5.3.7",
+    "antd": "^5.19.2",
+    "axios": "^1.7.3",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.25.1"
+  }
+}
