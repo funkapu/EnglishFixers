@@ -6,5 +6,12 @@
     "axios": "^1.7.3",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.25.1"
+  },
+  "scripts": {
+    "build": "vite build",
+    "start": "vite"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"  // Ensure Vite is listed here if it's not already
   }
 }
