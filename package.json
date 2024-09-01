@@ -1,9 +1,12 @@
 {
+  "homepage": "https://funkapu.github.io/EnglishFixers",
   "name": "my-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "npm run dev",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -12,6 +15,7 @@
   "dependencies": {
     "@ant-design/icons": "^5.3.7",
     "antd": "^5.19.2",
+    "gh-pages": "^6.1.1",
     "my-project": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

@@ -16,7 +16,7 @@ import Read from "./components/Pages/Courses/Reading.jsx";
 import Write from "./components/Pages/Courses/Writing.jsx";
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/vite-deploy/",
     element: <HomePage />,
   },
   {
