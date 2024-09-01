@@ -5,6 +5,7 @@ import Footers from "../Content/Footer/Footer";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { data } from "autoprefixer";
 
 const Quiz = () => {
   const [question,setQuestion] = useState("")
@@ -26,9 +27,10 @@ const Quiz = () => {
   }
   
   const getApi = async() =>{ 
-  await axios.get("https://funkapu.github.io/EnglishFixersAPI/ExamDaata.json")
+  await axios.get("http://localhost:5000/api")
   .then((data) => {
     if(data.data[index]){ 
+      console.log(data.data)
       setQuestion(data.data[index].questionText)
       setAnswer(data.data[index].answerOption.map((option) => option.answerText ))
       setIscorrectAnswer(data.data[index].answerOption.map((Correct) => Correct.isCorrect))
