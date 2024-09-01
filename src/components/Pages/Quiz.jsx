@@ -24,8 +24,9 @@ const Quiz = () => {
   else if(index > 9){ 
     setIndex(9)
   }
+  
   const getApi = async() =>{ 
-  await axios.get("http://localhost:5000/api")
+  await axios.get("https://funkapu.github.io/EnglishFixersAPI/ExamDaata.json")
   .then((data) => {
     if(data.data[index]){ 
       setQuestion(data.data[index].questionText)
