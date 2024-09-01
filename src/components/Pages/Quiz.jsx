@@ -27,7 +27,7 @@ const Quiz = () => {
   }
   
   const getApi = async() =>{ 
-  await axios.get("http://localhost:5000/api")
+  await axios.get("https://funkapu.github.io/EnglishFixersAPI/ExamData.json")
   .then((data) => {
     if(data.data[index]){ 
       console.log(data.data)
