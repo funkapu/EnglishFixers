@@ -1,0 +1,92 @@
+[
+    {
+        "questionText": "1. '______  her name Eliza?' No,______",
+        "answerOption": [
+            { "answerText": "A) What / it isn't", "isCorrect": false },
+            { "answerText": "B) Is / she isn't", "isCorrect": false },
+            { "answerText": "C) Is / it is not", "isCorrect": false },
+            { "answerText": "D) Is / it isn't", "isCorrect": true }
+        ]
+    },
+    {
+        "questionText": "2. Is your surname Anderson?",
+        "answerOption": [
+            { "answerText": "A) Yes, you are.", "isCorrect": false },
+            { "answerText": "B) Yes, it is.", "isCorrect": true },
+            { "answerText": "C) Yes, I am.", "isCorrect": false },
+            { "answerText": "D) Yes, my is.", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "3. 'Is she American?' No,______",
+        "answerOption": [
+            { "answerText": "A) hers isn't", "isCorrect": false },
+            { "answerText": "B) she isn't", "isCorrect": true },
+            { "answerText": "C) she is not", "isCorrect": false },
+            { "answerText": "D) she her isn't", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "4. '______their names Jack & Benny?' Yes,______",
+        "answerOption": [
+            { "answerText": "A) Are / they are", "isCorrect": true },
+            { "answerText": "B) Aren't / there are", "isCorrect": false },
+            { "answerText": "C) Am / their", "isCorrect": false },
+            { "answerText": "D) Is / they're", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "5. 'Is your dog 2 years old?'Yes,______",
+        "answerOption": [
+            { "answerText": "A) it's", "isCorrect": false },
+            { "answerText": "B) dog is", "isCorrect": false },
+            { "answerText": "C) it is", "isCorrect": true },
+            { "answerText": "D) its", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "6. 'Is your elder brother married?' No,______",
+        "answerOption": [
+            { "answerText": "A) brother isn't", "isCorrect": false },
+            { "answerText": "B) he isn't", "isCorrect": true },
+            { "answerText": "C) he is not", "isCorrect": false },
+            { "answerText": "D) she isn't", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "7. 'Are you from Senegal' No,______",
+        "answerOption": [
+            { "answerText": "A) I'm not", "isCorrect": true },
+            { "answerText": "B) I amn't", "isCorrect": false },
+            { "answerText": "C) I are not", "isCorrect": false },
+            { "answerText": "D) I not", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "8. '______Martha English?' Yes, she______",
+        "answerOption": [
+            { "answerText": "A) Is / isn't", "isCorrect": false },
+            { "answerText": "B) Are / is", "isCorrect": false },
+            { "answerText": "C) Is / is", "isCorrect": true },
+            { "answerText": "D) Are / is", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "9. '______her surname Smith?' No, it______",
+        "answerOption": [
+            { "answerText": "A) What / isn't", "isCorrect": false },
+            { "answerText": "B) Is / is", "isCorrect": false },
+            { "answerText": "C) Is / isn't", "isCorrect": true },
+            { "answerText": "D) Are / isn't", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "10. 'Are you a student?' Yes, I______",
+        "answerOption": [
+            { "answerText": "A) am", "isCorrect": true },
+            { "answerText": "B) have", "isCorrect": false },
+            { "answerText": "C) is", "isCorrect": false },
+            { "answerText": "D) 'm not", "isCorrect": false }
+        ]
+    }
+]
