@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { ConfigProvider } from "antd";
 import "antd/dist/reset.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./components/Pages/HomePage.jsx";
 import About from "./components/Pages/About.jsx";
 import Course from "./components/Pages/Course.jsx";
@@ -14,52 +14,27 @@ import Conver from "./components/Pages/Courses/Conversation.jsx";
 import Gram from "./components/Pages/Courses/Grammar.jsx";
 import Read from "./components/Pages/Courses/Reading.jsx";
 import Write from "./components/Pages/Courses/Writing.jsx";
-const router = createBrowserRouter([
-  {
-    path: "/EnglishFixers",
-    element: <HomePage />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/course",
-    element: <Course />,
-  },
-  {
-    path: "/contract",
-    element: <Contract />,
-  },
-  {
-    path: "/quiz",
-    element: <Quiz />,
-  },
-  {
-    path:"/course/Vocabulary",
-    element:<Vocab/>
-  },
-  { 
-    path:"/course/Conversation",
-    element:<Conver/>
-  },
-  {
-    path:"/course/Grammar",
-    element:<Gram/>
-  },
-  {
-    path:"/course/Reading",
-    element:<Read/>
-  },
-  {
-    path:"/course/Writing",
-    element:<Write/>
-  }
-]);
+const router = (
+  <Router>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/course" element={<Course />} />
+      <Route path="/contract" element={<Contract />} />
+      <Route path="/quiz" element={<Quiz />} />
+      <Route path="/course/Vocabulary" element={<Vocab />} />
+      <Route path="/course/Conversation" element={<Conver />} />
+      <Route path="/course/Grammar" element={<Gram />} />
+      <Route path="/course/Reading" element={<Read />} />
+      <Route path="/course/Writing" element={<Write />} />
+    </Routes>
+  </Router>
+);
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ConfigProvider>
-      <RouterProvider router={router} />
+      {router}
     </ConfigProvider>
   </React.StrictMode>
 );
