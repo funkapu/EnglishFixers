@@ -6,6 +6,7 @@ import {
 } from "@ant-design/icons";
 const { Footer } = Layout;
 const Footers = () => {
+  console.log("Hello World")
   return (
     <Footer className="bg-white p-5 h-[5rem]">
       <div className="flex space-x-12">
